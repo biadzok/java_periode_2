@@ -1,0 +1,62 @@
+Exo 1 :
+
+
+1)
+
+préconditions :
+- montant : positif et < crédit
+
+postconditions :
+- assert(crédit_final >= 0)
+- crédit_final = crédit - montant
+
+invariants :
+- crédit > 0
+
+
+2)
+
+postcondition :
+- res = max a,b
+
+
+****************************************************
+
+exo 2 :
+
+1)
+
+préconditions :
+- tableau non null, taille du tableau > 0
+
+postconditions :
+- les mêmes
+
+
+****************************************************
+
+exo 3 :
+
+préconditions :
+- tab != null, tab.length > 0
+
+
+postconditions :
+- la valeur max retournée est la valeur max du tableau
+
+invariants :
+- valeurs du tableau
+
+
+****************************************************
+
+exo 4 :
+
+préconditions :
+- age > 0
+
+postconditions :
+- age > 0
+
+invariants :
+- age > 0
